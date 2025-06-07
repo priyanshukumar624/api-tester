@@ -1,5 +1,5 @@
 use actix_web::{web, HttpResponse, Responder};
-use crate::models::models::{ApiRequest, ApiResponse};
+use crate::models::api::{ApiRequest, ApiResponse};
 use reqwest::header::{HeaderName, HeaderValue};
 use serde_json::Value;
 use std::collections::HashMap;

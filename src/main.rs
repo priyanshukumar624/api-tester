@@ -1,6 +1,6 @@
 use actix_web::{web, App, HttpServer};
 use actix_cors::Cors;
-use crate::handlers::handlers::test_api;
+use crate::handlers::api::test_api;
 
 mod handlers;
 mod models;
